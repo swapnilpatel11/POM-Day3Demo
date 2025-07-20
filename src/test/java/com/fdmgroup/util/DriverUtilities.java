@@ -35,11 +35,11 @@ public class DriverUtilities {
 		String driverName = getDriverName();
 		switch(driverName) {
 		case "google chrome":
-			System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 			this.driver = new ChromeDriver();
 			break;
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
 			this.driver = new FirefoxDriver();
 			break;
 		default:
